@@ -1,0 +1,23 @@
+.app__contact {
+  background: var(--color-crimson);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.app__contact-form {
+  margin: auto 30%;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__contact-form {
+    margin: 10%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__contact-form {
+    margin: 5%;
+  }
+}

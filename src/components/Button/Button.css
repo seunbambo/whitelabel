@@ -1,0 +1,19 @@
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  border-radius: 0px;
+}
+
+.btn-primary {
+  color: var(--color-white);
+  background: var(--color-primary);
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}

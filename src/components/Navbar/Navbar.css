@@ -5,6 +5,7 @@
   justify-content: space-between;
   background: #ffffff00;
   padding: 50px;
+  position: sticky;
 }
 
 .app__navbar-logo img {
